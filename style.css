@@ -1,0 +1,126 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #222;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #444;
+  }
+  
+  .project-card {
+    display: flex;
+    gap: 1rem;
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card.vertical-layout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .screenshot-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .screenshot-row img {
+    max-width: 20%;        /* Allow images to take up the full width without overflow */
+    height: auto;           /* Maintain aspect ratio */
+    object-fit: contain;    /* Ensure the image is fully visible without cropping */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+  }
+  
+  /* .project-card {
+    max-width: 1000px;
+    margin: 0 auto;
+  } */
+  
+  .project-info {
+    max-width: 700px;
+  }
+
+  .project-header {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* space between icon and title */
+    margin-bottom: 10px;
+  }
+  
+  .project-header .app-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* .project-card img {
+    width: 200px;         
+    border-radius: 8px;
+    object-fit: cover;
+  } */
+
+  .app-icon {
+    width: 180px;
+    height: 180px;
+    border-radius: 20%;
+    margin: 0.5rem 0 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .screenshot-row img.ipad-screenshot {
+    max-width: 400px; /* or more, depending on your design */
+  }
+
+  .ipad-screenshot {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .ipad-screenshot {
+    max-width: 400px;
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+  }
+  
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ddd;
+  }
